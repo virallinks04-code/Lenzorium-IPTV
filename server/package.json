@@ -1,0 +1,17 @@
+{
+  "name": "lenzorium-licence-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Activation, trial and reseller credits for Lenzorium Player",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "stripe": "^17.3.1"
+  }
+}
