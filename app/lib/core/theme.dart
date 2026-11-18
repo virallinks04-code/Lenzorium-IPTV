@@ -45,7 +45,7 @@ ThemeData buildTheme() {
     ),
     textTheme: base.textTheme.apply(bodyColor: LzColors.text, displayColor: LzColors.text),
     focusColor: Colors.white24,
-    dialogTheme: const DialogTheme(backgroundColor: LzColors.surface),
+    dialogTheme: const DialogThemeData(backgroundColor: LzColors.surface),
     snackBarTheme: const SnackBarThemeData(
       backgroundColor: LzColors.surface2,
       contentTextStyle: TextStyle(color: LzColors.text, fontSize: 16),
